@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Online Calculator</h1>
+    <form action="/calculate" method="get">
+        <label for="num1">Number 1:</label>
+        <input type="number" name="num1" id="num1" required>
+
+        <label for="num2">Number 2:</label>
+        <input type="number" name="num2" id="num2" required>
+
+        <button type="submit" name="operation" value="add">ADD</button>
+        <button type="submit" name="operation" value="sub">SUBTRACT</button>
+        <button type="submit" name="operation" value="mul">MULTIPLY</button>
+        <button type="submit" name="operation" value="div">DIVIDE</button>
+    </form>
+</div>
+</body>
+</html>
